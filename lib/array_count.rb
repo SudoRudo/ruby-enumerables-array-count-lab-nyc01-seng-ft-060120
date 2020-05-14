@@ -1,6 +1,6 @@
 def count_strings(array)
   array.count do |string|
-    string.instance_of? String
+    string.class == string
   end
 end
 
